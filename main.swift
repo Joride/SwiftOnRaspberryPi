@@ -13,7 +13,7 @@ print("This is the set: \(aSet)")
 
 
 let aQueue = DispatchQueue(label: "myQueue")
-aQueue.sync{ print("This is a block on the main queue, done asynchronously.")  }
+aQueue.sync{ print("This is a block some serial queue, it runs synchronously.")  }
 
 
 if let aURL = URL(string: "www.apple.com")
@@ -33,3 +33,6 @@ print("the int: \(String(format: "%02X", anInt8 ))")
 
 let aData = Data()
 print("The data: \(aData)")
+
+
+someSwiftFunc()
