@@ -6,7 +6,7 @@ SWIFT_MODULE_NAME="MyModule"
 OBJC_HEADER_NAME="objc-header.h"
 TARGET_ARCH="armv6--linux-gnueabihf"
 
-mkdir build > /dev/null 2>&1
+mkdir "$BUILD_DIR_NAME" > /dev/null 2>&1
 
 # NOTE: this works on BASH starting from version 4. macOS runs version 3!
 # This enables the use of `**` to get a recursive list of filenames
